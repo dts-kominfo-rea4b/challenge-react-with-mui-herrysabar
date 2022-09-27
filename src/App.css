@@ -29,10 +29,6 @@ body {
   color: white;
 }
 
-.h1 {
-  font-size: 80px;
-
-}
 
 .App-link {
   color: #61dafb;
@@ -45,4 +41,27 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.design{
+  overflow: hidden;
+  text-align: center;
+}
+.design > span{
+ position: relative;
+ display: inline-block;
+}
+.design > span:before, .design > span:after{
+ content: '';
+ position: absolute;
+ top: 50%;
+ border-bottom: 2px solid;
+ width: 100vw;
+ margin: 0 20px;
+}
+.design > span:before{
+ right: 100%;
+}
+.design > span:after{
+ left: 100%;
 }

@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import Grid from '@mui/material/Grid';
 
 // Uncomment untuk memuat daftar kontak
-// import contactsJSON from './data/contacts.json';
+import contactsJSON from './data/contacts.json';
 const App = () => {
   // Masukkan Header dan lakukan map untuk Contact ke dalam div App
   // untuk membuat daftar kontak bisa menggunakan MUI list
